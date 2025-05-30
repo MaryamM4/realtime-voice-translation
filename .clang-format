@@ -1,0 +1,7 @@
+BasedOnStyle: Google
+BraceWrapping:
+  AfterFunction: false
+  AfterControlStatement: false
+  AfterEnum: false
+  AfterStruct: false
+  AfterClass: false
