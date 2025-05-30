@@ -99,6 +99,10 @@ void adc_sampler(void *param) {
       for (int i = 0; i < sample_count; i++) {
         // So shift each sample back to 12-bit to remove irrelevant bits.
         samples[i] = samples[i] >> 4;
+
+        // Audio streams use 8/16/24/32-bit samples, so center
+        // and scale 12-bit ADC value to a signed 16-bit for transmission
+        samples[i] = (samples[i] - 2048) << 4; 
       }
 
       Serial.print("Sending samples: ");
