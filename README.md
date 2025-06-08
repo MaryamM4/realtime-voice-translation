@@ -1,4 +1,4 @@
-# ESP32 Real-Time Translator (MVP)
+# ESP32 Translator (MVP)
 **CSS427 Final Project – May 2025**
 This project is a minimum viable prototype for a real-time translation device using an ESP32 microcontroller and a host PC. It captures spoken audio, transmits it over Bluetooth Serial (SPP), performs speech-to-translation on the PC, and displays the translated text on an LCD screen connected to the ESP32.
 
@@ -34,10 +34,10 @@ This project is a minimum viable prototype for a real-time translation device us
 # Running the System
 ## ESP32
 1. Connect microphone, LCD and battery
-1. Flash the sketch using Arduino IDE (src/esp-side/esp-side.ino)
+1. Connect the esp and pc via USB, and flash the sketch using Arduino IDE (`src/esp-side/esp-side.ino`)
 
 ## PC
-1. Run the python program (src/pc-side/prompted.py)
+1. Run the python program (`src/pc-side/prompted.py`)
 2. Press Enter to start/stop recording audio
 3. Wait for the translation to appear on the LCD
 
