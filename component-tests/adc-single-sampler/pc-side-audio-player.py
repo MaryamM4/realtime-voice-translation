@@ -1,4 +1,4 @@
-# This doesn't work for multiple reasons, such as
+# This doesn't work for multiple potential reasons, such as
 # - Sampling rate on ESP-end is too slow
 # - Mismatched send/recieve rates
 

@@ -1,0 +1,47 @@
+Expected Output:
+Alif-un (the letter) rabbit, it runs and it plays,
+it eats a carrot so it doesn't get tired.
+
+Ba-un (the letter) duck, it jumped a jump
+it fell and the cat laughed at it.
+
+Alif-un (the letter) the rabbit, it runs and it plays
+it eats a carrot so it doesn't get tired.
+===================================================
+whisper(small model) translation result:
+
+A thousand ants, oh Lord, eat a seed so it can grow.
+It's a plant, a plant, a plant, and I've found a seed from this plant.
+A thousand ants, oh Lord, eat a seed so it can grow.
+
+---------------------------------------------------
+Whisper (small model) result when input audio was cleaned first:
+
+A thousand ants, what a pity! They eat a tree to make it sit,
+they cover it, cover it, cover it and cover it, and cover it from this cover.
+A thousand ants, what a pity! They eat a tree to make it sit.
+
+Whisper+Marian result:
+A thousand ambers eat carrots so they don't get some bounced potatoes and give a little bit of this cat.
+
+---------------------------------------------------
+Whisper(small)_marian result when input file was cleaned first:
+
+A thousand bunnies running the goat eat a button so that they don't have some rubber potatoes that fell out of this cat,
+and a thousand rabbits that go through the goat eat a button so that they don't.
+
+---------------------------------------------------
+klaam results:
+
+brief_arab_sample Output (MSA vs EYG):
+ألف أرنب يجري يلعب يأكل تزراً كيلا يتعب بعء بطونطط نطى و اع
+أليفون ارنا بياجري يلعبي كله سذدا كه لا يتعب بأن بطا ونط نطة و
+
+MSA:
+A thousand rabbits run, play, eat, and do not get tired, jumping and bouncing
+
+EYG:
+Alifon, we want to play everything lightly and without getting tired by jumping and hopping.
+
+MSA was more accurate, but neither fully so.
+---------------------------------------------------
