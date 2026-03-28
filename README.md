@@ -25,7 +25,7 @@ This project is a minimum viable prototype for a translation device using an ESP
 - `SDA` -> GPIO21  
 - `SCL` -> GPIO22  
 - `VCC` -> Battery VCC  
-- `GND` -> Shared GND (ESP32 + Battery)
+- `GND` -> Shared GND (ESP32 & Battery)
 
 ## PC Requirements
 - Python 3.8+
