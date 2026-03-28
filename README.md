@@ -1,10 +1,10 @@
 # ESP32 Translator (MVP)
-**CSS427 Final Project  (May 2025)**/
+**CSS427 Final Project  (May 2025)**<br>
 This project is a minimum viable prototype for a translation device using an ESP32 microcontroller and a host PC. It captures spoken audio, transmits it over Bluetooth Serial (SPP), performs speech-to-translation on the PC, and displays the translated text on an LCD screen connected to the ESP32.
 
 The goal is a proof-of-concept on how a small device can delegate heavier compute to a nearby device (like a phone). 
 
-**MVP Architecture**:
+**MVP Architecture**:<br>
 ![MVP Architecture](docs/architecture.jpg)
 
 ## Features
